@@ -1,0 +1,63 @@
+body {
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;	
+}
+
+span	{
+	color: #2697ff;
+}
+
+div, p, input, header	{
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p	{
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+
+.header {
+	background: #000;
+	padding: 41px 0 302px 0;
+}
+
+.logo {
+	width: 185px;
+	height: 51px;
+	background: white;
+	border-radius: 10px;
+}
+
+.phone {
+	font-weight: 800;
+	font-size: 15px;
+	text-align: right;
+	color: #eee;
+	text-decoration: none;
+}
+.nav {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+
+.offer {
+	 margin-top: 180px;
+	 color: #eee;
+	 width: 483px;
+}
+
+.offer p {
+	width: 483px;
+	margin-top: 14px;
+
+}

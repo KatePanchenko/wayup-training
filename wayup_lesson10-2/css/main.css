@@ -1,0 +1,422 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #000000;
+	font-size: 15px;
+
+}
+div, p, input, header, a, form {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 38px;
+	text-align: left;
+	margin-bottom: 47px;
+	color: #543024;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+section {
+	padding-top: 87px;
+}
+
+ul,li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+
+/*.btn {
+	background: #FF3465;
+	border-radius: 10px;
+	color: #fff;
+	width: 211px;
+	padding: 16px 48px;
+	font-weight: bold;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}*/
+
+.btn:hover {
+	background: #ED2353;
+}
+
+.btn-ghost:hover {
+	background: #FF3465;
+	color: #fff;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.header {
+	background: linear-gradient(109.21deg, rgba(126, 207, 164, 0.33) 26.81%, rgba(13, 68, 5, 0.445) 91.89%), url(../img/header-bg.jpeg) no-repeat center top / cover;
+	color: #fff;
+	padding-top: 43px;
+	padding-bottom: 75px;
+}
+
+.header a {
+	color: #fff;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-weight: bold;
+	line-height: 25px;
+	font-size: 16px;
+	letter-spacing: 0.055em;
+	display: inherit;
+	/*background: url('../img/logo.svg') no-repeat left center;*/
+	margin-right: 111px;
+}
+
+.logo img {
+	margin-right: 11px;
+}
+
+.main-menu {
+	display: flex;
+	justify-content: space-between;
+    margin-right: 74px;
+}
+
+.main-menu li:not(:last-child) {
+	margin-right: 48px;
+}
+
+.main-menu a {
+	padding-bottom: 10px;
+	white-space: nowrap;
+}
+
+.main-menu a.menu-item {
+	line-height: 25px;
+}
+
+.main-menu a {
+	border-bottom: 1px solid transparent;
+}
+
+
+.main-menu a:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.21);
+	
+}	
+
+.country-selector {
+	margin-right: 53px: 
+}
+
+.country-selector span {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.country-selector .switch {
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.call {
+	display: flex;
+	font-weight: bold;
+	font-size: 15px;
+	align-items: center;
+	margin-left: 51px;
+}
+
+.call-btn {
+	border: 1px solid #FFFFFF;
+	border-radius: 100px;
+	display: block;
+	width: 170px;
+	padding: 11px 22px;
+	text-align: center;
+	margin-right: 21px;
+	
+}
+
+.call-btn:hover {
+	background: #fff;
+	color: #3B4B81;
+}
+
+.offer {
+	margin-top: 193px;
+	text-align: center;
+	
+}
+
+.offer h1 {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.offer .offer-description {
+	width: 462px;
+	margin: 0 auto;
+	margin-top: 18px;
+	font-size: 17px;
+	line-height: 19.53px;
+}
+
+.offer .btn {
+	display: inline-block;
+	margin: 0 auto;
+	background: #FF7D34;
+	border-radius: 69px;
+	padding: 14px 40px 16px 42px;
+}
+
+.btn-container {
+	margin-top: 21px; 
+}
+
+.next-section-btn {
+	text-align: center;
+    margin-top: 184px;
+}
+
+.destinations {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.destinations img {
+	width: 277px;
+	height: 173px;
+}
+
+.destinations-item {
+	width: 585px;
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 15px;
+	transition: all 0.5s ease;
+	display: flex;
+	margin-bottom: 30px; 
+}
+
+ul .destinations-item:nth-last-child(2) {
+	margin-bottom: 0px;
+}
+
+ul .destinations-item:nth-last-child(1) {
+	margin-bottom: 0px;
+}
+
+
+.destinations-item:hover {
+	box-shadow: 0px 10px 20px rgba(32, 40, 69, 0.24);
+}
+
+.destinations-item img {
+	display: block;
+	border-radius: 15px 0 0 15px;
+
+}
+
+.destinations-content {
+	padding: 35px 28px 38px 28.5px;
+}
+
+.destinations-content h3 {
+	margin: 16px 0px 12px 0px;
+}
+
+.destinations-content span{
+	flex-direction: row;
+	align-items: center;
+	padding: 3px 13px;
+	background: #EE3C5C;
+	border-radius: 30px;
+	margin-right: 2px;
+	font-size: 13px;
+	color: #FFFFFF;
+}
+
+.destinations-date {
+	display: inline;
+	font-size: 13px;
+	color: #EE3C5C;
+	margin-left: 8px;
+}
+
+.destinations-details {
+	display: flex;
+}
+
+.destinations-details p {
+	font-size: 13px;
+}
+
+.btn-ghost.btn-routes {
+	margin-top: 58px;
+}
+
+.btn-ghost {
+	border: 1px solid #FF7D34;
+	box-sizing: border-box;
+	border-radius: 69px;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	color: #FF7D34;
+	width: 245px;
+	padding: 14px 28px;
+	display: block;
+}
+
+section.about {
+	margin-top: 96px;
+	padding-top: 0px;
+}
+
+.about-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #543024;
+}
+
+.about-content img {
+	width: 585px;
+	height: 360px;
+	display: block;
+	border-radius: 15px;
+}
+
+.about-text {
+	width: 572px;
+}
+
+.about-text h3 {
+	margin-bottom: 21px;
+	color: #543024;
+
+}
+
+.about-text p {
+	line-height: 1.5em;
+	margin-bottom: 25px;
+	color: #000000;
+}
+
+.about-text p:last-child {
+	margin-bottom: 0px;
+}
+
+section .contacts {
+	margin-top: 96px;
+	padding-top: 0px;
+}
+
+.form-container {
+	width: 994px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form {
+	box-shadow: 0px 17px 50px rgba(32, 40, 69, 0.14);
+	border-radius: 20px;
+	width: 601px;
+	text-align: center;
+	padding: 58px 64px 126px;
+}
+
+.form h3 {
+	width: 367px;
+	text-align: left;
+	margin-bottom: 45px;
+	font-weight: bold;
+	font-size: 19px;
+	line-height: 22px;
+	color: #543024;
+
+}
+
+.form input {
+	background: #FFFFFF;
+	border: 1px solid rgba(39, 52, 86, 0.26);
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	padding: 20px 26px;
+	margin-bottom: 15px;
+	color: rgba(39, 52, 86, 0.56);
+}
+
+.form .btn {
+	background: #FF7D34;
+	border-radius: 69px;
+	border: 0px;
+	padding: 22px 85px;
+	margin-top: 20px;
+	float: left;
+	transition: all 0.5s ease;
+	font-weight: bold;
+	font-size: 17px;
+	color: #FFFFFF;
+}
+
+.phone-container {
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(114, 52, 26, 0.89);
+}
+
+.phone-container .number {
+	text-align: center;
+}
+
+.phone-container .number img {
+	margin-bottom: 23px;
+}
+
+.phone-container .number a {
+	color: rgba(114, 52, 26, 0.89);
+}
+
+.footer-text {
+	color: rgba(114, 52, 26, 0.6);
+	text-align: center;
+	font-weight: normal;
+	font-size: 14px;
+	padding: 116px 0 119px;
+}
